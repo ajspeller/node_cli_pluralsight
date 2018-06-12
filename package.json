@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,24 @@
   "bugs": {
     "url": "https://github.com/ajspeller/node_cli_pluralsight/issues"
   },
-  "homepage": "https://github.com/ajspeller/node_cli_pluralsight#readme"
+  "homepage": "https://github.com/ajspeller/node_cli_pluralsight#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0",
+    "sinon": "^6.0.0"
+  },
+  "dependencies": {
+    "configstore": "^3.1.2",
+    "dirty-chai": "^2.0.1",
+    "inquirer": "^6.0.0",
+    "keytar-prebuild": "^4.1.1"
+  }
 }
